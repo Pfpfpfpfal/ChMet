@@ -1,4 +1,5 @@
-﻿using System;
+//Метод Гаусса
+using System;
 
 class program
 {
