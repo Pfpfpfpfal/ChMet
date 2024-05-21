@@ -1,10 +1,11 @@
-﻿using System;
+//Метод Ньютона
+using System;
 
 class program
 {
     static double Phi(double x)
     {
-        return x + 1.7 - 0.1 * x * x;
+        return x + (17 - x * x) / (2 * x);
     }
     static void Main(string[] args)
     {
@@ -37,3 +38,12 @@ class program
         Console.ReadKey();
     }
 };
+
+Out
+x0=4,5
+x1=4,138888888888889
+Кол-во итераций: 2
+x2=4,12313571961223
+Решение: 4,12313571961223
+Точное решение: 4,123105625617661
+Относительная погрешность: 7,298865782684225E-06
